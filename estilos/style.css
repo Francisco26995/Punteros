@@ -1,0 +1,106 @@
+html{
+	font-size: 62.5%; /*reset para rems*/
+    
+}
+
+body{
+	font-family: 'Anton', sans-serif;
+	font-size: 1.5rem;
+	line-height: 2rem;
+    
+}
+/*GROBALES*/
+.contenedor{
+    background-image: url(/img/operaciones.jpg);
+    background-position: center center;
+	max-width: 138rem;
+    
+	
+}
+
+.contenido-header{
+	max-width: 120rem;
+	margin: 0 10px 0 10px;
+}
+
+.titulo{
+    color:#000066;
+    text-align: center;
+    padding: 15rem 15rem 20rem 15rem;
+    font-family: fantasy;
+    font-size: 80px;
+}
+.tituloP{
+    
+    background-size: cover; 
+    width:1330px ;
+    min-height: 30rem;
+}
+
+p{
+    text-align: center;
+    width:1330px ;
+}
+.texto{
+    text-justify: auto;
+    margin: .5rem;
+}
+.casillas{
+    text-align: center;
+}
+.btn {
+    float: none;
+    align-items:center;
+    margin: 1rem;
+    padding: 2rem;
+}
+#suma:hover {
+      background-color: #008CBA;
+      color: white;
+ }
+#suma{
+    cursor:wait;
+    color: black;
+    background: transparent;
+    border: 5px solid black;
+    border-radius: 6px;
+    font-size: 1.3rem
+}
+#resta:hover {
+      background-color: #990000;
+      color: white;
+ }
+#resta{
+     cursor:crosshair;
+    color: black;
+     background: transparent;
+    border: 5px solid black;
+    border-radius: 6px;
+    font-size: 1.3rem
+}
+#multiplicacion:hover {
+      background-color:  #196619;
+      color: white;
+ }
+#multiplicacion{
+    cursor:grab;
+    color: black;
+     background: transparent;
+    border: 5px solid black;
+    border-radius: 6px;
+    font-size: 1.3rem
+}
+#division:hover {
+      background-color: #600080;
+      color: white;
+ }
+#division{
+    cursor:help;
+    color: black;
+    background: #eb94d0;
+     background: transparent;
+     border: 5px solid black;
+    border-radius: 6px;
+    font-size: 1.3rem
+    
+}
